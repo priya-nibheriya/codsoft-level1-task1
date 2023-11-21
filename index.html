@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        
+        tailwind.config = {
+          theme: {
+            extend: {
+    colors: {
+      white:"#fff",
+      black:"#000",
+      lightblue:"#bfdbfe",
+      purple:"#7e22ce",
+      gray:"#1f2937",
+      sky:"#e0f2fe",
+             }
+            }
+          }
+        }
+      
+    </script>
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div>
+        <!-- Header Section -->
+        <section>
+        <header class="bg-white">
+            <div class="relative w-[1080px] mx-auto flex item-center justify-between">
+                <!-- sign logo -->
+                <a href="/" class="py-0 pr-0">
+                    <img src="/portfolio/images/index.png" width="225px" height="50px" alt="no image">
+                    <ul class="flex space-x-6">
+                        <li class="text-black py-7 hover:text-lightblue cursor-pointer
+                        transition-all duration-200 relative group hidden lg:block">
+                        <a href="#Skills">Skills</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightblue hidden group-hover:block
+                        transition-all duration-200"></div>
+                        </li>
+                        
+                        <li class="text-black py-7 hover:text-lightblue cursor-pointer
+                        transition-all duration-200 relative group hidden lg:block">
+                        <a href="#project">Projects</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightblue hidden group-hover:block
+                        transition-all duration-200"></div></li>
+
+                        <li class="text-black py-7 hover:text-lightblue cursor-pointer
+                        transition-all duration-200 relative group hidden lg:block">
+                        <a href="#resume">Resume</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightblue hidden group-hover:block
+                        transition-all duration-200"></div></li>
+                        
+                        <li class="text-black py-7 hover:text-lightblue cursor-pointer
+                        transition-all duration-200 relative group hidden lg:block">
+                        <a href="#contact">Contact Me</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightblue hidden group-hover:block
+                        transition-all duration-200"></div></li>
+                    </ul>
+                </a>
+            </div>
+
+        </header>
+        </section>
+
+        <!-- About Section -->
+        <section class="relative bg-white">
+            <div class="w-10/12 max-w--[1080px] flex flex-col lg:flex-row justify-between items-center
+            mx-auto">
+            <!-- left part -->
+            <div class="space-y-8">
+                <h1 class="font-bold text-[40px] leading-1.2 text-black">Hi all I'm Saad</h1>
+                <p class="text-black text-[18px] leading-7 opacity-70">I am Mern Stack Developer. <br>
+                I am design the website with the <br>
+                help of html, css, Tailwind, Javascript <br>
+                I have also knowladge Python, React and node <br>
+                and oops With Java </p>
+                <div class="flex flex-row justify-between item-center">
+                 <ul class="social-icons flex flex-row justify-between item-center gap-4">
+                    <li class="flex flex-col hover:scale-125 opacity-70">
+                        <a class="icon-github" href="https://github.com/priya-nibheriya" target="_blank" 
+                        rel="me noopener noreferrer">
+                        <img src="/portfolio/images/github (1).png" alt="" height="30px" width="50px"></a>
+                    </li>
+                    <li class="flex flex-col hover:scale-125 opacity-70"><a class="icon-linkdin" href="https://www.linkedin.com/in/priya-nibheriya-b84343246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                        target="_blank" rel="me noopener noreferrer">
+                        <img src="/portfolio/images/linkedin (1).png" alt="" height="40px" width="60px"></a>
+                    </li>
+                 </ul>
+                </div>
+            </div>
+            <!-- Right Part -->
+            <img src="/portfolio/images/girlimage.avif" alt="no image" class="max-w-[680px]">
+        </div>
+
+        </section>
+
+        <!-- Skills Section -->
+        <section id="Skills" class="relative bg-white">
+            <div class="w-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center
+            mx-auto">
+                <!-- left part -->
+                <div>
+                    <img src="/portfolio/images/girlsecondimage.avif" alt="no image" class="max-w-[680px]">
+                </div>
+
+                <!-- Right part -->
+                <div class="flex flex-row justify-between item-center">
+                    <ul class="social-icons flex flex-col justify-between item-center gap-6 ">
+                        <div class="social-icons flex flex-row justify-between item-center gap-8">
+                            <li class="flex flex-col hover:scale-125 opacity-70"><img src="/portfolio/images/c-.png" alt="" height="30px" width="50px"></li>
+                            <li class="flex flex-col hover:scale-125 opacity-70"><img src="/portfolio/images/python.png" alt="" height="30px" width="50px"></li>
+                            <li class="flex flex-col hover:scale-105 opacity-70"><img src="/portfolio/images/html.png" alt="" height="30px" width="50px"></li>
+                        </div>
+                        <div class="social-icons flex flex-row justify-between item-center gap-8">
+                            <li class="flex flex-col hover:scale-125 opacity-70"><img src="/portfolio/images/css.png" alt="" height="30px" width="50px"></li>
+                            <li class="flex flex-col hover:scale-125 opacity-70"><img src="/portfolio/images/js.png" alt="" height="30px" width="50px"></li>
+                            <li class="flex flex-col hover:scale-125 opacity-70"><img src="/portfolio/images/nodejs.png" alt="" height="30px" width="50px"></li>
+                        </div>
+                        <div class="social-icons flex flex-row justify-between item-center gap-8">
+                            <li class="flex flex-col hover:scale-125 opacity-70"><img src="/portfolio/images/library.png" alt="" height="30px" width="50px"></li>
+                            <li class="flex flex-col hover:scale-125 opacity-70"><img src="/portfolio/images/icons8-tailwind-css-48.png" alt=""  height="30px" width="50px"></li>
+                            <li class="flex flex-col hover:scale-125 opacity-70"><img src="/portfolio/images/java.png" alt="" height="30px" width="50px"></li>
+                        </div>
+                    </ul>
+                </div>
+
+            </div>
+            <div class=""><img src="/portfolio/images/white image.jpg" class="w-screen h-24" alt=""></div>
+        </section>
+
+        <!-- Project Section -->
+        <section id="project" class="h-auto overflow-hidden overflow-auto ">
+            <div class="w-10/12 max-w-[1080px] w-screen justify-between items-center
+            mx-auto h-full max-w-6xl mx-auto my-auto px-5 py-5">   
+                <!-- h-full max-w-6xl mx-auto my-auto px-5 py-5 -->
+                <h1 class="font-extrabold text-center text-2xl text-[40px] overflow-visible leading-[1.2] hidden md:block  ">My Projects</h1>
+                <div class="w-screen"><img src="/portfolio/images/white image.jpg" class=" w-screen h-24" alt=""></div>
+                <div class="flex flex-row gap-32">
+                    <figure class="w-2/5 relative mb-5 rounded-xl overflow-hidden hover:scale-105 hover:drop-shadow-2xl transition duration-200 hover:ease-in-out "><img src="/portfolio/images/parallexwebsite.png" height="100px"  class="h-1/2 w-full  hover:grayscale shadow-gray-300 overflow-visible object-cover" alt=""><figcaption class="text-16px text-center self-center bottom-0 left-0 pt-6 pr-6 pb-6 pl-6 w-full h-1/5 text-neutral-950 font-semibold absolute w-100% opacity-0 rounded-s-lg  hover:opacity-100 hover:scale-125 duration-300" >Parallexwebsite</figcaption></figure>
+                    <figure class="w-2/5 relative mb-5 rounded-xl overflow-hidden hover:scale-105 hover:drop-shadow-2xl transition duration-200 hover:ease-in-out"><img src="/portfolio/images/iamgegallaryiamge.png" height="100px" class="h-1/2 w-full  hover:grayscale shadow-gray-300 overflow-visible object-cover"  alt=""><figcaption class="text-16px text-center self-center bottom-0 left-0 pt-6 pr-6 pb-6 pl-6 w-full h-1/5 text-neutral-950 font-semibold absolute w-100% opacity-0 rounded-s-lg hover:opacity-100 hover:scale-125 duration-300">Image Gallary</figcaption></figure>
+                </div>
+                <div class="flex flex-row gap-32">
+                    <figure class="w-2/5 relative mb-5 rounded-xl overflow-hidden hover:scale-105 hover:drop-shadow-2xl transition duration-200 hover:ease-in-out"><img src="/portfolio/images/mordenchair.png" class="h-1/2 w-full  hover:grayscale shadow-gray-300 overflow-visible object-cover" alt=""><figcaption class="text-16px text-center self-center bottom-0 left-0 pt-6 pr-6 pb-6 pl-6 w-full h-1/5 text-neutral-950 font-semibold absolute w-100% opacity-0 rounded-s-lg hover:opacity-100 hover:scale-125 duration-300">Mordenchair</figcaption></figure>
+                 <figure class="w-2/5 relative mb-5 rounded-xl overflow-hidden hover:scale-105 hover:drop-shadow-2xl transition duration-200 hover:ease-in-out"><img src="/portfolio/images/razorpay image.png" class="h-1/2 w-full  hover:grayscale shadow-gray-300 overflow-visible object-cover"  alt=""><figcaption class="text-16px text-center self-center bottom-0 left-0 pt-6 pr-6 pb-6 pl-6 w-full h-1/5 text-neutral-950 font-semibold absolute w-100% opacity-0 rounded-s-lg  hover:opacity-100 hover:scale-125 duration-300">Razorpay Clone</figcaption></figure>
+                </div>
+                <div class="flex flex-row gap-32">
+                    <figure class="w-2/5 relative mb-5 rounded-xl overflow-hidden hover:scale-105 hover:drop-shadow-2xl transition duration-200 hover:ease-in-out"><img src="/portfolio/images/speech recognisation.png" class="h-1/2 w-full hover:grayscale shadow-gray-300 overflow-visible object-cover" alt=""><figcaption class="text-16px text-center self-center bottom-0 left-0 pt-6 pr-6 pb-6 pl-6 w-full h-1/5 text-neutral-950 font-semibold absolute w-100% opacity-0 rounded-s-lg hover:opacity-100 hover:scale-125 duration-300">Speech recognisation</figcaption></figure>
+                 <figure class="w-2/5 relative mb-5 rounded-xl overflow-hidden hover:scale-105 hover:drop-shadow-2xl transition duration-200 hover:ease-in-out"><img src="/portfolio/images/speech to text converter.png" class="h-24 w-full hover:grayscale shadow-gray-300 overflow-visible object-cover" alt=""><figcaption class="text-16px text-center self-center bottom-0 left-0 pt-6 pr-6 pb-6 pl-6 w-full h-1/5 text-neutral-950 font-semibold absolute w-100% opacity-0 rounded-s-lg hover:opacity-100 hover:scale-125 duration-300">Speech to text converter</figcaption></figure>
+                </div>
+            </div>
+            <div class="w-screen"><img src="/portfolio/images/white image.jpg" class=" w-screen h-24" alt=""></div>   
+            
+            
+             
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="bg-white relative">
+            <div class="w-10/12 max-w-[1080px]flex flex-col justify-between items-center place-items-center
+            mx-auto">
+            <div><img src="/portfolio/images/white image.jpg" class="w-14 h-24" alt=""></div>
+                <button class="bg-blue-800 relative text-white flex m-auto rounded-md font-bold justify-center items-center hover:sky hover:scale-105 hover:ease-in-out
+                 transition duration-200 py-[14px] px-[18px]  "><a href="/portfolio/priya resume.pdf" class="text-white font-bold self-center">My Resume</a>
+                </button>
+            </div>
+            <div class="w-screen"><img src="/portfolio/images/white image.jpg" class=" w-screen h-24" alt=""></div> 
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="relative bg-white">
+            <div class=" flex flex-row gap-6">
+                <h1 class="text-2xl font-semibold text-black ">My Contanct</h1>
+                <!-- <div class="w-screen"><img src="/portfolio/images/white image.jpg" class=" w-screen h-24" alt=""></div> -->
+                <div>
+                    <div class="flex flex-row justify-between item-center">
+                        <ul class="social-icons flex flex-row justify-between item-center gap-4">
+                           <li class="flex flex-col hover:scale-125 opacity-70">
+                               <a class="icon-github" href="mailto:nibheriyapriya@gmail.com" target="_blank" 
+                               rel="me noopener noreferrer">
+                               <img src="/portfolio/images/gmail.png" alt="" height="20px" width="30px"></a>
+                           </li>
+                           <li class="flex flex-col hover:scale-125 opacity-70"><a class="icon-linkdin" href="tel:+9079936657" 
+                               target="_blank" rel="me noopener noreferrer">
+                               <img src="/portfolio/images/phone-call.png" alt="" height="20px" width="30px"></a>
+                               <!--<a href="tel:+9079936657">call me</a>  -->
+                               <!-- <a href="emailto:nibheriyapriya@gmail.com">mailme</a> -->
+                           </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w-screen"><img src="/portfolio/images/white image.jpg" class=" w-screen h-24" alt=""></div>
+            
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-white relative font-semibold flex flex-col">
+            <div class="bg-white relative font-semibold flex flex-row justify-center">
+                &copy; My portfolio
+            </div>
+            <div class="w-screen"><img src="/portfolio/images/white image.jpg" class=" w-screen h-24" alt=""></div>
+        </footer>
+    </div>
+</body>
+</html>
